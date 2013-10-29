@@ -61,5 +61,5 @@ $(document).ready(function() {
     });
 
     // tabs jquery ui
-    $( "#tabs" ).tabs();
+    //$( "#tabs" ).tabs();
 });

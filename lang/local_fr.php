@@ -30,7 +30,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
     'documents_image'                             => 'Images associées',
     
     // E
-    'esprit_de_suite'                             => "Esprit de suite",
+    'esprit_de_suite'                             => "Nos obsessions",
     
     // I
     'info_contact'                                => "Gardons le contact",

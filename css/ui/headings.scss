@@ -59,13 +59,19 @@ h6.spip {
     color: #000;
 }
 
-/*==========  intertitres section  ==========*/
+/*==========  intertitre-section  ==========*/
 .intertitre-section {
     font-style: italic;
     .recherche & {
         color: #000;
         font-weight: 600;
     }
+}
+.intertitre-section--obsessions {
+    // border-bottom: 1px solid #eee;
+    text-align: center;
+    color: #999;
+    @include font-size(24px,$line-height:false);
 }
 // .intertitre-section--aside {}
 
@@ -85,6 +91,11 @@ h6.spip {
     margin-bottom: 0;
     font-weight: 600;
     @include font-size(16px);
+}
+.intertitre-section--group {
+    @include media-query(lap-and-up) {
+        margin-bottom: 0;
+    }
 }
 
 /*-----  End of headings  ------*/
